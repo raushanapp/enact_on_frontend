@@ -1,0 +1,11 @@
+@media screen and (min-width:375px) and (max-width:675px) {
+    .container{
+        display: flex;
+        /* border: 1px solid brown; */
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+}

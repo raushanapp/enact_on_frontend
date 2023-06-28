@@ -1,9 +1,22 @@
 import React from 'react'
-
+import styles from "../../Styles/Navbar/navbar.module.css";
+import { useNavigate } from 'react-router-dom';
+import { AiOutlineHome, AiOutlineSearch } from "react-icons/ai";
+import {RiMovieLine} from "react-icons/ri"
 function Navbar() {
   return (
-    <div>Navbar</div>
-  )
+    <div className={styles.container}>
+      <button className={styles.btn}>
+        <AiOutlineHome className={styles.homeLogo} />
+      </button>
+      <button className={styles.btn1}>
+        <RiMovieLine className={styles.moviesLogo} />
+      </button>
+      <button className={styles.btn1}>
+        <AiOutlineSearch className={styles.searchLogo} />
+      </button>
+    </div>
+  );
 }
 
 export default Navbar

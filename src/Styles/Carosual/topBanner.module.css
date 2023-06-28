@@ -1,0 +1,52 @@
+@media screen and (min-width:0px) and (max-width:375px) {
+    .carosulaContianer{
+        display: flex;
+        margin: auto;
+        align-items: center;
+        width: 375px;
+        height: 300px;
+        justify-content: space-between;
+        flex-direction: column;
+        /* border: 1px solid red; */
+    }
+    .moviesPoster{
+        display: flex;
+        width: 100%;
+        height: 180px;
+        justify-content: center;
+        align-items: center;
+        /* border: 1px solid blue; */
+    }
+    .secondMoviePoster{
+        display: flex;
+        width: 100%;
+        height: 120px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .movieLabel{
+        display: flex;
+        width: 55%;
+        /* border: 1px solid red; */
+        flex-direction: column;
+        margin-top: -70px;
+        /* line-height: 2px; */
+    }
+    .title1{
+        width: 100%;
+        font-size: 13px;
+        font-family: Popin,sans-serif;
+        font-weight: 600;
+        text-align: start;
+        margin-left: 5px;
+    }
+    .labelTrailer{
+        font-size: 11px;
+        font-family: Popin,sans-serif;
+        width: 100%;
+        text-align: start;
+        margin-left: 5px;
+        margin-top: -4px;
+    }
+
+}

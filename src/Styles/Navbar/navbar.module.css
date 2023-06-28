@@ -1,0 +1,39 @@
+@media screen and (min-width:375px) and (max-width:675px) {
+    .container {
+        display: flex;
+        /* border: 1px solid #cccc; */
+        width: 375px;
+        height: 40px;
+        align-items: center;
+        justify-content: space-around;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        position: absolute;
+        top: 560px;
+    }
+
+    .btn,
+    .btn1,
+    .btn2 {
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+
+    .homeLogo,
+    .moviesLogo,
+    .searchLogo {
+        font-size: 28px;
+    }
+
+    .homeLogo:hover {
+        color: #7743DB;
+    }
+
+    .moviesLogo:hover {
+        color: #7743DB;
+    }
+
+    .searchLogo:hover {
+        color: #7743DB;
+    }
+}
