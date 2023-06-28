@@ -34,7 +34,7 @@ function TopBannerMovies() {
                 style={{
                   width: "160px",
                   height: "120px",
-                  marginTop: "-130px",
+                  marginTop: "-95px",
                   borderRadius:"10px"
                 }}
               />
