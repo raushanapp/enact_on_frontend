@@ -9,7 +9,6 @@ function LatestMovies() {
   const data = useSelector((state) => state.data);
   const [latestMovies, setLatestMovies] = useState([]);
 
-  console.log(latestMovies, "filter");
   useEffect(() => {
     if (data?.length === 0) {
       dispatch(getMoviesData());

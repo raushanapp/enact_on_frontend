@@ -1,0 +1,16 @@
+@media screen and (min-width:375) and (max-width) {
+
+    .imageCard {
+        display: flex;
+        width: 165px;
+        height: 250px;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 2px;
+        border: 2px solid red;
+    }
+
+    
+
+}

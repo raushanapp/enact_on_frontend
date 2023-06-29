@@ -1,0 +1,30 @@
+@media screen and (min-width:375px) and (max-width:675px) {
+    .container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    input {
+        width: 80%;
+        margin: auto;
+        padding: 10px 15px;
+        margin-top: 10px;
+        font-size: 16px;
+        font-family: Popin, sans-serif;
+        border: 1px solid #cccc;
+        border-radius: 5px;
+
+    }
+
+    .gridContainer {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        justify-content: center;
+        margin: auto;
+        gap: 10px;
+    }
+}
