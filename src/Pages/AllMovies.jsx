@@ -18,8 +18,8 @@ function AllMovies() {
       <h1 className={styles.labelAllMovies}>Movies</h1>
       <div className={styles.gridContainer} >
         {movies?.length > 0 &&
-          movies.map(({ title, imdb_title_id }) => (
-            <MoviesCard id={imdb_title_id} title={title} />
+          movies.map(({ title, avg_vote }) => (
+            <MoviesCard  id={avg_vote} title={title} />
           ))}
       </div>
     </div>

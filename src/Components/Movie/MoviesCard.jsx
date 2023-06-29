@@ -4,7 +4,7 @@ function MoviesCard({ title, id }) {
   return (
     <div
       className={styles.imageCard}
-      key={id}
+      key={Number(id)}
       style={{ width: "170px", height: "240px",}}
     >
       <img
